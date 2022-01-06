@@ -1,0 +1,281 @@
+body {
+   font-family: "Poppins", sans-serif;
+   margin: 0 auto;
+   background-color: #fcfafb;
+}
+
+.target_link_btn {
+   border-radius: 6px;
+   padding: 8px 20px;
+   background-color: tomato;
+   text-decoration: none;
+   color: white;
+}
+
+section {
+   padding: 2% 7%;
+   margin-bottom: 100px;
+}
+
+.top_banar {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 50px;
+   background-image: url(/bg-images/header-background.jpg);
+   background-repeat: no-repeat;
+}
+
+.top_banar_half {
+   width: 50%;
+}
+
+.banar_title {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin: 20px 0;
+}
+
+.verticle_line {
+   height: 110px;
+   width: 5px;
+   background-image: linear-gradient(45deg, #47d4ff, #750080);
+   border-radius: 40px;
+   margin: 0 18px 0 0;
+   display: block;
+}
+
+.banar_title h1 {
+   font-size: 45px;
+}
+
+.banar_title h1 span {
+   color: #40e05b;
+}
+
+.top_banar_half p {
+   margin: 30px 0;
+}
+
+.banar_bottom_text {
+   margin-top: 30px;
+   display: block;
+   color: #444444;
+}
+
+.banar_image {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.banar_image img {
+   width: 60%;
+}
+
+/* Target Section */
+
+.target_section h2 {
+   font-size: 35px;
+   text-align: center;
+}
+
+.target_section h2 span {
+   color: #40e05b;
+}
+
+.target_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.target_item {
+   width: 50%;
+   border-radius: 20px;
+   margin: 1%;
+   padding: 20px;
+}
+
+#target_web {
+   background-color: #d8bfd885;
+}
+
+#target_job {
+   background-color: #87b4eb52;
+}
+
+#target_more {
+   background-color: #b5fc7569;
+}
+
+.target_img {
+   width: 100%;
+}
+
+.target_img img {
+   width: 40%;
+}
+
+.target_title {
+   color: black;
+}
+
+.target_desc {
+   color: #333333;
+}
+
+/* code section */
+.code_section {
+   display: flex;
+   flex-wrap: wrap;
+   background-image: url(/bg-images/details-2-background.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.code_sect_half {
+   width: 50%;
+}
+
+.code_img {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.code_img img {
+   width: 70%;
+}
+
+.code_title {
+   color: black;
+   font-size: 35px;
+}
+
+.code_title span {
+   color: #40e05b;
+}
+
+.code_desc {
+   color: #444444;
+   margin: 30px 0;
+}
+
+
+
+/* Comunity Section */
+.curr_section {
+   display: flex;
+   background-image: url(/bg-images/decoration-circles.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+.curr_half {
+   width: 50%;
+}
+
+.curr_title {
+   font-size: 35px;
+   color: black;
+}
+
+.curr_title span {
+   color: #40e05b;
+}
+
+.curr_desc {
+   color: #444444;
+}
+
+.curr_img {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.curr_img img {
+   width: 70%;
+}
+
+
+/* Subscribe section */
+.subscribe_caption {
+   color: black;
+   font-size: 35px;
+   text-align: center;
+}
+
+.subscribe_caption span {
+   color: #40e05b;
+}
+
+.subscribe_content {
+   background-color: #476fff4a;
+   padding: 40px;
+   border-radius: 20px;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.subscribe_half {
+   width: 50%;
+}
+
+.subscribe_img {
+   width: 100%;
+}
+
+.subscribe_img img{
+   width: 80%;
+}
+
+.subscribe_half span {
+   display: block;
+   margin: 0 0 10px 0;
+   color: rgba(255, 0, 0, 0.507);
+   font-weight: 700;
+}
+
+.subscribe_form input{
+   background-color: #ffffff;
+   border: none;
+   padding: 8px 20px;
+   border-radius: 4px;
+}
+
+.subscribe_form button {
+   border: none;
+}
+
+/* Footer section */
+
+footer {
+   text-align: center;
+   background-color: #000000;
+   padding: 5px 0 15px 0;
+   border-top: 5px solid;
+   border-image: linear-gradient(91deg, #878787, #00dcff);
+   border-image-slice: 1;
+}
+
+footer p {
+   font-size: 30px;
+   font-weight: 700;
+   color: white;
+}
+
+footer p span {
+   color: #40e05b;
+}
+
+footer span {
+   color: #fdfdfd;
+}
