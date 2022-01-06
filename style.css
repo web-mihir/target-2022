@@ -43,6 +43,8 @@ section {
    padding-top: 50px;
    background-image: url(bg-images/header-background.jpg);
    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
 }
 
 .banar_title {
@@ -54,7 +56,7 @@ section {
 
 .verticle_line {
    height: 110px;
-   width: 5px;
+   width: 8px;
    background-image: linear-gradient(45deg, #47d4ff, #750080);
    border-radius: 40px;
    margin: 0 18px 0 0;
