@@ -21,7 +21,7 @@ section {
    display: flex;
    flex-wrap: wrap;
    padding-top: 50px;
-   background-image: url(/bg-images/header-background.jpg);
+   background-image: url(bg-images/header-background.jpg);
    background-repeat: no-repeat;
 }
 
@@ -130,7 +130,7 @@ section {
 .code_section {
    display: flex;
    flex-wrap: wrap;
-   background-image: url(/bg-images/details-2-background.jpg);
+   background-image: url(bg-images/details-2-background.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -170,7 +170,7 @@ section {
 /* Comunity Section */
 .curr_section {
    display: flex;
-   background-image: url(/bg-images/decoration-circles.png);
+   background-image: url(bg-images/decoration-circles.png);
    background-repeat: no-repeat;
    background-position: left;
 }
